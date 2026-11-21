@@ -1,8 +1,8 @@
 # MammoReader – Offline Mammography Reader Study Platform
 
-MammoReader is a browser-based tool for running blinded radiology reader studies on mammography cases. It runs **completely offline**: no internet, no server, no cloud. All questions, images and answers stay inside a folder you choose.
+MammoReader is a browser-based tool for running blinded radiology reader studies on mammography cases. It runs **completely offline**. All questions, images and answers stay inside a folder you choose.
 
-**Author:** Reza
+**Author:** Reza Dehdab
 
 ## What is in this repository
 
@@ -18,7 +18,7 @@ Nothing has to be installed. The app is a single self-contained HTML file.
 
 - **Name-based login** – readers type their name; no passwords.
 - **Two roles** – *Researcher* (reads cases) and *Administrator* (builds the study and exports results).
-- **Two runs** – each case belongs to Run 1 or Run 2.
+- **Two runs** 
 - **Cases with up to 4 images** – shown in a 2×2 grid; click any image to enlarge it full screen.
 - **Question types** – Yes/No (with optional follow-up questions shown on "Yes"), multiple choice, multi-select and free text.
 - **Standard templates**
