@@ -1,8 +1,8 @@
 # MammoReader – Offline Mammography Reader Study Platform
 
-MammoReader is a browser-based tool for running blinded radiology reader studies on mammography cases. It runs **completely offline**. All questions, images and answers stay inside a folder you choose.
+MammoReader is a browser-based tool for running blinded radiology reader studies on mammography cases. It runs **completely offline**: no internet, no server, no cloud. All questions, images and answers stay inside a folder you choose.
 
-**Author:** Reza Dehdab
+**Author:** Reza
 
 ## What is in this repository
 
@@ -18,7 +18,7 @@ Nothing has to be installed. The app is a single self-contained HTML file.
 
 - **Name-based login** – readers type their name; no passwords.
 - **Two roles** – *Researcher* (reads cases) and *Administrator* (builds the study and exports results).
-- **Two runs** 
+- **Two runs** – each case belongs to Run 1 or Run 2.
 - **Cases with up to 4 images** – shown in a 2×2 grid; click any image to enlarge it full screen.
 - **Question types** – Yes/No (with optional follow-up questions shown on "Yes"), multiple choice, multi-select and free text.
 - **Standard templates**
@@ -37,8 +37,9 @@ Nothing has to be installed. The app is a single self-contained HTML file.
 
 1. Copy this folder onto a USB stick or into a local folder (e.g. `E:\MammoReader`).
 2. Open `index.html` with **Microsoft Edge** or **Google Chrome**.
-3. Click **Choose study folder** and select the `study-data` folder next to it. The browser asks for permission to edit files – allow it.
-4. The app reads and writes:
+3. If there is no `study-data` folder next to `index.html`, create an empty folder with that name (any empty folder works).
+4. Click **Choose study folder** and select the `study-data` folder next to it. The browser asks for permission to edit files – allow it.
+5. The app reads and writes:
 
    ```
    study-data/
